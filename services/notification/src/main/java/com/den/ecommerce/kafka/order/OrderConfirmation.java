@@ -1,7 +1,7 @@
 package com.den.ecommerce.kafka.order;
 
 
-import com.den.ecommerce.order.PaymentMethod;
+import com.den.ecommerce.kafka.payment.PaymentMethod;
 
 import java.math.BigDecimal;
 import java.util.List;
