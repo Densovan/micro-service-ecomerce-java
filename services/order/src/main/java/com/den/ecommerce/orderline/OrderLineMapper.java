@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class OrderLineMapper {
     public OrderLine toOrderLine(OrderLineRequest request) {
         return OrderLine.builder()
-                .id(request.orderId())
+                .id(request.id())
                 .productId(request.productId())
                 .order(
                         Order.builder()

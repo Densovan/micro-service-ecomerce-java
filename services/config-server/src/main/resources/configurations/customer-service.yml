@@ -1,11 +1,8 @@
 server:
   port: 8090
 spring:
+  mongodb:
+    uri: mongodb://den:den@localhost:27017/customer?authSource=admin
   data:
     mongodb:
-      username: den
-      password: den
-      host: localhost
-      port: 27017
-      database: customer
-      authentication-database: admin
+      uri: mongodb://den:den@localhost:27017/customer?authSource=admin

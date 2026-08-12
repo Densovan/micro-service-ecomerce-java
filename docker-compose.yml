@@ -38,7 +38,7 @@ services:
       - mongo:/data
     environment:
       - MONGO_INITDB_ROOT_USERNAME=den
-      - MONGO_INITDB_ROOT_PASSWORD=password
+      - MONGO_INITDB_ROOT_PASSWORD=den
 
   mongo-express:
     container_name: ms_mongo_express
@@ -48,7 +48,7 @@ services:
       - 8081:8081
     environment:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=den
-      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=den
       - ME_CONFIG_MONGODB_SERVER=mongodb
 
 
